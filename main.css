@@ -50,6 +50,7 @@ h2 {
 
 #portfolio {
   display: flex;
+  padding-bottom: 250px;
 }
 
 #footer {
@@ -58,7 +59,7 @@ h2 {
   background: white;
   padding: 20px 10px;
   display: flex;
-  width: auto;
+  width: 100%;
 }
 
 #bio {
@@ -273,6 +274,7 @@ ul {
 
   #footer {
     position: relative;
+    width: auto;
   }
 
   .blank {
@@ -282,5 +284,18 @@ ul {
   .previous, .next {
     top: inherit;
     bottom: 10px;
+  }
+
+  #portfolio, #cv {
+    padding-bottom: 0px;
+  }
+
+  #cv .row {
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+
+  .role, .date {
+    padding-bottom: 10px;
   }
 }
